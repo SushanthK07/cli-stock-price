@@ -1,17 +1,33 @@
 {
   "name": "cli-stock-price",
   "version": "1.0.0",
+  "description": "A command-line interface (CLI) tool to get live stock prices of valid company symbols",
   "main": "index.js",
   "scripts": {
     "start": "bun index.js"
+  },
+  "keywords": [
+    "stock",
+    "market",
+    "finance",
+    "CLI",
+    "stock price",
+    "NSE",
+    "BSE"
+  ],
+  "author": "SushanthK07",
+  "license": "ISC",
+  "bin": {
+    "stocklive": "./index.js"
   },
   "dependencies": {
     "axios": "^1.6.7",
     "commander": "^12.0.0"
   },
   "devDependencies": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SushanthK07/cli-stock-price"
+  },
+  "homepage": "https://github.com/SushanthK07/cli-stock-price"
 }
