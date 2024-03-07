@@ -1,16 +1,17 @@
 {
-    "name": "cli-stock-price",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "start": "bun index.js"
-    },
-    "dependencies": {
-        "commander": "^12.0.0"
-    },
-    "devDependencies": {},
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": ""
+  "name": "cli-stock-price",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "bun index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
